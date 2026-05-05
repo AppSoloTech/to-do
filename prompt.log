@@ -1,0 +1,63 @@
+Build a simple, clean, frontend-only To-Do web application using plain HTML, CSS, and JavaScript (no frameworks).
+
+The app should be designed to be deployed on GitHub Pages, so it must not rely on any backend, server, or external database.
+
+Core Requirements:
+- Single-page application
+- Add a new to-do item
+- Mark a to-do item as complete/incomplete
+- Delete a to-do item
+- Persist all to-dos using localStorage so they remain after page refresh
+- Input field + "Add" button
+- Display list of tasks below the input
+
+UI/UX Requirements:
+- Clean, modern design (centered container)
+- Responsive layout (mobile + desktop)
+- Subtle hover effects on buttons
+- Completed tasks should be visually distinct (e.g., strikethrough + faded)
+- Smooth transitions (CSS preferred)
+
+Feature Enhancements (include these):
+1. Filter buttons:
+   - All
+   - Active
+   - Completed
+
+2. Clear completed tasks button
+
+3. Task counter:
+   - Show number of active (incomplete) tasks remaining
+
+4. Edit task:
+   - Allow user to click a task and edit its text inline
+
+5. Keyboard support:
+   - Press "Enter" to add a task
+
+6. LocalStorage structure:
+   - Store tasks as an array of objects:
+     {
+       id: string,
+       text: string,
+       completed: boolean
+     }
+
+Code Requirements:
+- Use clean, readable JavaScript (no libraries)
+- Separate logic clearly (DOM handling, storage, rendering)
+- Comment important sections for learning purposes
+- Use semantic HTML
+- Keep everything in 3 files:
+  - index.html
+  - styles.css
+  - app.js
+
+Bonus (if easy to include):
+- Dark mode toggle (persisted in localStorage)
+- Simple animation when adding/removing tasks
+
+Output:
+- Provide complete code for all files
+- Ensure it works by simply opening index.html in a browser
+- Ensure compatibility with GitHub Pages deployment
