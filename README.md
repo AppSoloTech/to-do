@@ -4,6 +4,10 @@ A small browser-based to-do app built with plain HTML, CSS, and JavaScript.
 Tasks and theme preference are saved in `localStorage`, so the app keeps your
 list between browser sessions without needing a backend.
 
+## Live Demo
+
+View the deployed app on GitHub Pages: https://appsolotech.github.io/to-do/
+
 ## Features
 
 - Add, complete, edit, and delete tasks.
